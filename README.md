@@ -1,2 +1,2 @@
-# Sharadhamma
-This repo contains end to end DevOps
+### Sharadhamma
+This repository contains end to end DevOps Tools
