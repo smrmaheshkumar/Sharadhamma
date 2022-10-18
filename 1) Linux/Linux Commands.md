@@ -1,6 +1,6 @@
-UNIX / LINUX CHEAT SHEET
+## UNIX / LINUX CHEAT SHEET
 
-FILE SYSTEM
+### FILE SYSTEM
 
 ls — list items in current directory
 
@@ -54,7 +54,7 @@ vim file — edit file
 
 alias name 'command' — create an alias for a command
 
-SYSTEM
+### SYSTEM
 
 shutdown — shut down machine
 
@@ -78,7 +78,7 @@ whereis app — show possible locations of app
 
 which app — show which app will be run by default
 
-PROCESS MANAGEMENT
+### PROCESS MANAGEMENT
 
 ps — display your currently active processes
 
@@ -88,7 +88,7 @@ kill pid — kill process id pid
 
 kill -9 pid — force kill process id pid
 
-PERMISSIONS
+### PERMISSIONS
 
 ls -l — list items in current directory and show permissions
 
@@ -118,7 +118,7 @@ chmod 644 file — you can read and write, and everyone else can only read - goo
 
 chmod 755 file — you can read, write, and execute, and everyone else can read and execute - good for programs that you want to share
 
-NETWORKING
+### NETWORKING
 
 wget file — download a file
 
@@ -146,7 +146,7 @@ dig -x host — reverse lookup host
 
 lsof -i tcp:1337 — list all processes running on port 1337
 
-SEARCHING
+### SEARCHING
 
 grep pattern files — search for pattern in files
 
@@ -164,7 +164,7 @@ locate file — find all instances of file using indexed database built from the
 
 sed -i 's/day/night/g' file — find all occurrences of day in a file and replace them with night - s means substitude and g means global - sed also supports regular expressions
 
-COMPRESSION
+### COMPRESSION
 
 tar cf file.tar files — create a tar named file.tar containing files
 
@@ -178,7 +178,7 @@ gzip file — compresses file and renames it to file.gz
 
 gzip -d file.gz — decompresses file.gz back to file
 
-SHORTCUTS 
+### SHORTCUTS 
 
 ctrl+a — move cursor to beginning of line
 
@@ -188,6 +188,6 @@ alt+f — move cursor forward 1 word
 
 alt+b — move cursor backward 1 word
 
-## scp copy in aws 
-only file :- scp -i r_login.pem  artifactory-oss-6.7.2.tar.gz  ec2-user@34.222.132.1:/home/ec2-user 
-for folder :- scp -ri r_login.pem  artifactory-oss-6.7.2.tar.gz  ec2-user@34.222.132.1:/home/ec2-user
+### scp copy in aws 
+only file: scp -i r_login.pem  artifactory-oss-6.7.2.tar.gz  ec2-user@34.222.132.1:/home/ec2-user 
+for folder: scp -ri r_login.pem  artifactory-oss-6.7.2.tar.gz  ec2-user@34.222.132.1:/home/ec2-user
